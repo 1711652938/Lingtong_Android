@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_focused">#d95f1e</color>
+    <color name="orange_focused">#297fb8</color>
+    <color name="login_default">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg">#f4f4f4</color>
+    <color name="today">#f1a58a</color>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titly_lay" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/account"
+                style="@style/SetText"
+                android:text="@string/account" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/set_bg"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:id="@+id/push_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="20dp"
+                    android:text="@string/push_sound"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <com.helloword.lingtong.view.SlipButton
+                    android:id="@+id/slipbuttons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/push_classify"
+                style="@style/SetText"
+                android:drawableRight="@drawable/more"
+                android:paddingRight="20dp"
+                android:text="@string/push_classify" />
+
+            <TextView
+                android:id="@+id/font_size"
+                style="@style/SetText"
+                android:drawableRight="@drawable/more"
+                android:paddingRight="20dp"
+                android:text="@string/font_size" />
+
+            <TextView
+                android:id="@+id/msg_save"
+                style="@style/SetText"
+                android:drawableRight="@drawable/more"
+                android:paddingRight="20dp"
+                android:text="@string/msg_save" />
+
+            <TextView
+                android:id="@+id/about_our"
+                style="@style/SetText"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_our" />
+
+            <TextView
+                android:id="@+id/opinion"
+                style="@style/SetText"
+                android:text="@string/opinion" />
+
+            <TextView
+                android:id="@+id/check_new"
+                style="@style/SetText"
+                android:text="@string/check_new" />
+
+            <Button
+                android:id="@+id/cancel_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_orange"
+                android:text="@string/cancel_login"
+                android:textColor="@drawable/orange_btn_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lingtong</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="account">帐号</string>
+    <string name="push_sound">推送声音</string>
+    <string name="push_classify">推送短讯分类</string>
+    <string name="font_size">字体大小</string>
+    <string name="msg_save">缓存信息保留</string>
+    <string name="about_our">关于灵通资讯</string>
+    <string name="opinion">意见与投诉</string>
+    <string name="check_new">检查更新</string>
+    <string name="cancel_login">注销登录</string>
+ <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+</resources>
